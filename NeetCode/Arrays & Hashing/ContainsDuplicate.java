@@ -19,7 +19,7 @@ class ContainsDuplicate {
         /* 
         // Sorting
         // Time Complexity: O(N log N)
-        // Space Complexity: O(1) or O(n) depending on sorting algorithm
+        // Space Complexity: O(1) or O(N) depending on sorting algorithm
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == nums[i + 1]) {
