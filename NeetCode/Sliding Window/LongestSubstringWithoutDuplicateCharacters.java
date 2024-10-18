@@ -1,9 +1,6 @@
 import java.util.*;
 
 public class LongestSubstringWithoutDuplicateCharacters {
-    // Sliding Window 
-    // Time Comlexity: O(N)
-    // Space Complexity: O(N)
     public int lengthOfLongestSubstring(String s) {
         int ans = 0;
         int left = 0;

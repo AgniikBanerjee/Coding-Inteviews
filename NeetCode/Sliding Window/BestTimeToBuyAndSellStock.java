@@ -1,8 +1,5 @@
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
-        // Sliding Window
-        // Time Complexity: O(N)
-        // Space Complexity: O(1)
         int left = 0;
         int right = 1;
         int maxProfit = 0;
