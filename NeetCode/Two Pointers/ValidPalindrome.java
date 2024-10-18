@@ -1,10 +1,8 @@
 public class ValidPalindrome {
     public boolean alphaNum(char c) {
-        return (c >= 'A' && c <= 'Z' || 
-                c >= 'a' && c <= 'z' || 
-                c >= '0' && c <= '9');
+        return (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z' || c >= '0' && c <= '9');
     }
-    
+
     public boolean isPalindrome(String s) {
         int l = 0, r = s.length() - 1;
         while (l < r) {
